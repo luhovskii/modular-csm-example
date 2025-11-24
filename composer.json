@@ -1,0 +1,12 @@
+{
+  "name": "example/modular-cms-test",
+  "description": "A small modular CMS test project",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/",
+      "Modules\\": "modules/"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# PHP / common
+vendor/
+vendor/*
+composer.lock
+.idea/
+.vscode/
+/.env
+/.env.local
+
+# storage and module data
+storage/
+modules/*/data/
+
+# OS files
+Thumbs.db
+.DS_Store
