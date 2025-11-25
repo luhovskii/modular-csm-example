@@ -19,17 +19,17 @@ $router->get('/', function () {
 
 // Admin login form
 $router->get('/admin/login', function () {
-        $csrf = Csrf::getToken();
-        $redirect = $_GET['redirect'] ?? '/admin/users';
-        // keep only path starting with '/'
-        if (!is_string($redirect) || strpos($redirect, '/') !== 0) {
-                $redirect = '/admin/users';
-        }
+    $csrf = Csrf::getToken();
+    $redirect = $_GET['redirect'] ?? '/admin/users';
+    // keep only path starting with '/'
+    if (!is_string($redirect) || strpos($redirect, '/') !== 0) {
+        $redirect = '/admin/users';
+    }
 
-        $csrfEsc = htmlspecialchars($csrf, ENT_QUOTES, 'UTF-8');
-        $redirectEsc = htmlspecialchars($redirect, ENT_QUOTES, 'UTF-8');
+    $csrfEsc = htmlspecialchars($csrf, ENT_QUOTES, 'UTF-8');
+    $redirectEsc = htmlspecialchars($redirect, ENT_QUOTES, 'UTF-8');
 
-        $html = <<<HTML
+    $html = <<<HTML
 <!doctype html>
 <html lang="en">
 <head>
@@ -76,7 +76,7 @@ $router->get('/admin/login', function () {
 </html>
 HTML;
 
-        echo $html;
+    echo $html;
 });
 
 // Admin login submit

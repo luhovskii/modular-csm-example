@@ -1,4 +1,5 @@
 <?php
+
 namespace Modules\Gallery\Controllers;
 
 use Modules\Gallery\Models\Image;

@@ -1,4 +1,5 @@
 <?php
+
 namespace Modules\Gallery\Models;
 
 class Image

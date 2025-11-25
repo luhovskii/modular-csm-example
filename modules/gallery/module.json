@@ -1,6 +1,6 @@
 {
-  "name": "Gallery",
-  "namespace": "Modules\\Gallery",
-  "main": "GalleryModule.php",
-  "description": "Simple gallery module showing random pictures"
+    "name": "Gallery",
+    "namespace": "Modules\\Gallery",
+    "main": "GalleryModule.php",
+    "description": "Simple gallery module showing random pictures"
 }
