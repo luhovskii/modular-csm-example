@@ -153,7 +153,8 @@
             <div class="nav">
                 <a href="/">Home</a>
                 <a href="/blog">Blog</a>
-                <a href="/admin/users">Admin</a>
+                <a href="/admin/users">Users</a>
+                <a href="/admin/posts/new">New Post</a>
             </div>
             <div class="logout"><a href="/admin/logout">Logout</a></div>
         </header>

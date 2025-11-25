@@ -77,7 +77,7 @@ class Post
         return false;
     }
 
-    private static function sanitizeContent(string $html): string
+    public static function sanitizeContent(string $html): string
     {
         // Allow a limited set of tags and sanitize attributes on <a>
         $allowed = '<p><br><strong><em><ul><ol><li><a>';
