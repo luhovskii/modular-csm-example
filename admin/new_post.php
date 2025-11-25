@@ -26,7 +26,7 @@ if (!isset($csrf)) {
   </style>
 </head><body>
   <div class="wrap">
-    <div class="top-menu"><a href="/admin/users">Users</a> | <a href="/blog">View blog</a> | <a href="/admin/logout">Logout</a></div>
+    <div class="top-menu"><a href="/admin/users">Users</a> | <a href="/blog">View blog</a> | <a href="/gallery">Gallery</a> | <a href="/admin/logout">Logout</a></div>
     <div class="card">
       <h1>Create New Post</h1>
       <form method="POST" action="/admin/posts">

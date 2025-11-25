@@ -101,6 +101,7 @@ $recent = array_slice(Post::all(), 0, 5);
 <header class="top-menu">
     <a href="/">Home</a>
     <a href="/blog">Blog</a>
+    <a href="/gallery">Gallery</a>
     <?php if ($isAdmin): ?>
         <a href="/admin/users">Admin</a>
         <a href="/admin/logout">Logout</a>

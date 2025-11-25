@@ -137,6 +137,7 @@ $currentUri = $_SERVER['REQUEST_URI'] ?? '/';
 <header class="top-menu">
     <a href="/">Home</a>
     <a href="/blog">Blog</a>
+    <a href="/gallery">Gallery</a>
     <?php if ($isAdmin): ?>
         <a href="/admin/users">Admin</a>
         <a href="/admin/logout">Logout</a>
